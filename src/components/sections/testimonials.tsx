@@ -122,7 +122,7 @@ export function Testimonials() {
 
                   {/* Content */}
                   <blockquote className="text-muted-foreground leading-relaxed text-sm">
-                    "                    &quot;{testimonial.content}&quot;"
+                    &quot;{testimonial.content}&quot;
                   </blockquote>
 
                   {/* Results Badge */}
