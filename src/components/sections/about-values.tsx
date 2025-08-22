@@ -95,7 +95,7 @@ export function AboutValues() {
           
           <div className="max-w-4xl mx-auto">
             <p className="text-2xl lg:text-3xl font-medium text-foreground leading-relaxed mb-6">
-              "              &quot;To empower businesses with innovative digital solutions that drive growth,
+              &quot;To empower businesses with innovative digital solutions that drive growth,
               enhance efficiency, and create lasting value for all stakeholders.&quot;"
             </p>
             <p className="text-lg text-muted-foreground">
