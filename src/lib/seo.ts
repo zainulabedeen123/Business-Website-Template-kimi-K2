@@ -120,19 +120,19 @@ export function generateStructuredData(type: 'Organization' | 'WebSite' | 'Artic
         url: baseUrl,
         logo: `${baseUrl}/logo.png`,
         description: data.description || defaultSEO.description,
-        address: data.address && {
+        address: data.address && typeof data.address === 'object' && data.address !== null && {
           '@type': 'PostalAddress',
-          streetAddress: data.address.street,
-          addressLocality: data.address.city,
-          addressRegion: data.address.state,
-          postalCode: data.address.zip,
-          addressCountry: data.address.country,
+          streetAddress: (data.address as Record<string, unknown>).street,
+          addressLocality: (data.address as Record<string, unknown>).city,
+          addressRegion: (data.address as Record<string, unknown>).state,
+          postalCode: (data.address as Record<string, unknown>).zip,
+          addressCountry: (data.address as Record<string, unknown>).country,
         },
-        contactPoint: data.contact && {
+        contactPoint: data.contact && typeof data.contact === 'object' && data.contact !== null && {
           '@type': 'ContactPoint',
-          telephone: data.contact.phone,
+          telephone: (data.contact as Record<string, unknown>).phone,
           contactType: 'customer service',
-          email: data.contact.email,
+          email: (data.contact as Record<string, unknown>).email,
         },
         sameAs: data.socialMedia || [],
       }
