@@ -64,7 +64,7 @@ export function AboutHero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight"
             >
-              We're Building the{" "}
+              We&apos;re Building the{" "}
               <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
                 Future
               </span>{" "}

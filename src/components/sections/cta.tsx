@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import Link from "next/link"
-import { ArrowRight, CheckCircle, Sparkles, Star } from "lucide-react"
+import { ArrowRight, CheckCircle, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Section } from "@/components/layout/section"

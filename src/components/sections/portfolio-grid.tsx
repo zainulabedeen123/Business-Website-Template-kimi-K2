@@ -98,7 +98,7 @@ export function PortfolioGrid() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover how we've helped businesses across various industries achieve 
+            Discover how we&apos;ve helped businesses across various industries achieve
             their digital transformation goals.
           </p>
         </motion.div>

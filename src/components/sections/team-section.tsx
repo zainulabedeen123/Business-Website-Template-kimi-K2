@@ -190,7 +190,7 @@ export function TeamSection() {
           <div>
             <h3 className="text-2xl font-bold mb-2">Join Our Team</h3>
             <p className="text-muted-foreground">
-              We're always looking for talented individuals to join our growing team.
+              We&apos;re always looking for talented individuals to join our growing team.
             </p>
           </div>
           <Button size="lg" variant="outline">

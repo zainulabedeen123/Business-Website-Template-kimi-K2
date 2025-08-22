@@ -100,13 +100,13 @@ export function AboutStory() {
               </p>
               
               <p>
-                We've had the privilege of working with startups that became unicorns, 
+                We&apos;ve had the privilege of working with startups that became unicorns,
                 established enterprises that needed to reinvent themselves, and everything in between. 
                 Each project has taught us something new and made us better at what we do.
               </p>
               
               <p>
-                Today, we're proud to be trusted partners to over 500 businesses worldwide, 
+                Today, we&apos;re proud to be trusted partners to over 500 businesses worldwide,
                 helping them navigate the complexities of digital transformation with confidence and clarity.
               </p>
             </div>

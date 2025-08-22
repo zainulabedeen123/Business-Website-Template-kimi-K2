@@ -72,7 +72,7 @@ export function generateMetadata({
         },
       ],
       locale: 'en_US',
-      type: type,
+      type: type === 'product' ? 'website' : type,
       ...(type === 'article' && {
         publishedTime,
         modifiedTime,
@@ -108,7 +108,7 @@ export function generateMetadata({
   }
 }
 
-export function generateStructuredData(type: 'Organization' | 'WebSite' | 'Article' | 'Product', data: any) {
+export function generateStructuredData(type: 'Organization' | 'WebSite' | 'Article' | 'Product', data: Record<string, unknown>) {
   const baseUrl = defaultSEO.url
 
   switch (type) {

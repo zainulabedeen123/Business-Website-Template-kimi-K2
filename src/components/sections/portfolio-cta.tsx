@@ -25,7 +25,7 @@ export function PortfolioCTA() {
             Ready to Create Your Success Story?
           </h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Join our portfolio of successful projects. Let's discuss how we can help 
+            Join our portfolio of successful projects. Let&apos;s discuss how we can help
             you achieve similar results for your business.
           </p>
         </motion.div>

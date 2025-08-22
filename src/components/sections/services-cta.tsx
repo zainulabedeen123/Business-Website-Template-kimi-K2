@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import Link from "next/link"
-import { ArrowRight, CheckCircle, Phone, Mail } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Section } from "@/components/layout/section"
 
@@ -25,7 +25,7 @@ export function ServicesCTA() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Let's discuss your project and create a solution that drives real results. 
+            Let&apos;s discuss your project and create a solution that drives real results.
             Get started with a free consultation today.
           </p>
         </motion.div>

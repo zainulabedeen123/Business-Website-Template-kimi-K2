@@ -134,7 +134,7 @@ export function ServicesProcess() {
           <div>
             <h3 className="text-2xl font-bold mb-2">Ready to Get Started?</h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Let's discuss your project and create a customized plan that fits 
+              Let&apos;s discuss your project and create a customized plan that fits
               your timeline and budget.
             </p>
           </div>

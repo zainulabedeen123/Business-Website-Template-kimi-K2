@@ -103,7 +103,7 @@ export function ContactInfo() {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Choose the communication method that works best for you. 
-            We're here to help and respond quickly to all inquiries.
+            We&apos;re here to help and respond quickly to all inquiries.
           </p>
         </motion.div>
 
@@ -160,7 +160,7 @@ export function ContactInfo() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
-                {officeInfo.map((office, index) => {
+                {officeInfo.map((office) => {
                   const Icon = office.icon
                   return (
                     <div key={office.title} className="flex items-start space-x-3">
@@ -199,7 +199,7 @@ export function ContactInfo() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                {businessHours.map((schedule, index) => (
+                {businessHours.map((schedule) => (
                   <div key={schedule.day} className="flex justify-between items-center py-2 border-b border-border last:border-0">
                     <span className="font-medium">{schedule.day}</span>
                     <span className="text-muted-foreground">{schedule.hours}</span>

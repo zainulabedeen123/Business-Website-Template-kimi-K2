@@ -6,7 +6,7 @@ import { Star, Quote } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Section } from "@/components/layout/section"
-import { OptimizedImage } from "@/components/ui/optimized-image"
+
 import { STOCK_IMAGES } from "@/lib/images"
 
 const testimonials = [
@@ -89,8 +89,8 @@ export function Testimonials() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our satisfied clients have to say 
-            about working with us and the results they've achieved.
+            Don&apos;t just take our word for it. Here&apos;s what our satisfied clients have to say
+            about working with us and the results they&apos;ve achieved.
           </p>
         </motion.div>
 
@@ -122,7 +122,7 @@ export function Testimonials() {
 
                   {/* Content */}
                   <blockquote className="text-muted-foreground leading-relaxed text-sm">
-                    "{testimonial.content}"
+                    "                    &quot;{testimonial.content}&quot;"
                   </blockquote>
 
                   {/* Results Badge */}

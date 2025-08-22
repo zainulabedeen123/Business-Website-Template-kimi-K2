@@ -91,7 +91,7 @@ export function PortfolioHero() {
               className="text-xl text-muted-foreground leading-relaxed"
             >
               Explore our collection of successful projects that have transformed businesses 
-              and delivered exceptional results. From startups to enterprises, see how we've 
+              and delivered exceptional results. From startups to enterprises, see how we&apos;ve
               helped our clients achieve their digital goals.
             </motion.p>
           </div>

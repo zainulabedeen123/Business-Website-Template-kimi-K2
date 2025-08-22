@@ -95,12 +95,12 @@ export function AboutValues() {
           
           <div className="max-w-4xl mx-auto">
             <p className="text-2xl lg:text-3xl font-medium text-foreground leading-relaxed mb-6">
-              "To empower businesses with innovative digital solutions that drive growth, 
-              enhance efficiency, and create lasting value for all stakeholders."
+              "              &quot;To empower businesses with innovative digital solutions that drive growth,
+              enhance efficiency, and create lasting value for all stakeholders.&quot;"
             </p>
             <p className="text-lg text-muted-foreground">
               We believe that technology should be a catalyst for human potential, 
-              not a barrier to it. That's why we focus on creating solutions that are 
+              not a barrier to it. That&apos;s why we focus on creating solutions that are
               not just powerful, but also intuitive and accessible.
             </p>
           </div>
@@ -116,7 +116,7 @@ export function AboutValues() {
           <div className="text-center">
             <h3 className="text-3xl font-bold mb-4">What Drives Us</h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Our values aren't just words on a wall - they're the principles that guide 
+              Our values aren&apos;t just words on a wall - they&apos;re the principles that guide
               our decisions, shape our culture, and define our relationships.
             </p>
           </div>
@@ -218,7 +218,7 @@ export function AboutValues() {
           <div>
             <h3 className="text-3xl font-bold mb-4">Ready to Work Together?</h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Let's discuss how our values align with your vision and create 
+              Let&apos;s discuss how our values align with your vision and create
               something extraordinary together.
             </p>
           </div>

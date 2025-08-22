@@ -46,7 +46,7 @@ export function ContactHero() {
         >
           <Badge variant="secondary" className="px-4 py-2">
             <MessageSquare className="w-4 h-4 mr-2" />
-            Let's Start a Conversation
+            Let&apos;s Start a Conversation
           </Badge>
         </motion.div>
 
@@ -66,7 +66,7 @@ export function ContactHero() {
           </h1>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Get in touch with our expert team today. We're here to understand your needs, 
+            Get in touch with our expert team today. We&apos;re here to understand your needs,
             answer your questions, and help you achieve your business goals with our 
             premium solutions.
           </p>

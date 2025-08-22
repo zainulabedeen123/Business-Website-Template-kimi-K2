@@ -114,7 +114,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="grid grid-cols-2 gap-4 max-w-2xl"
             >
-              {features.map((feature, index) => (
+              {features.map((feature) => (
                 <div key={feature} className="flex items-center space-x-2">
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
                   <span className="text-sm font-medium">{feature}</span>
